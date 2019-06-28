@@ -3,6 +3,7 @@ $dbhost  = 'localhost';    // Unlikely to require changing
 $dbname  = 'Bazzinga';   // Modify these...
 $dbuser  = 'root';   // ...variables according
 $dbpass  = '';   // ...to your installation
+$appname = "Bazzinga!!"; // ...and preference
 
 $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 if ($connection->connect_error) die($connection->connect_error);
